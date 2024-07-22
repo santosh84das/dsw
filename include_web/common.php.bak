@@ -1,0 +1,18 @@
+<?php
+error_reporting(E_ALL); ini_set('display_errors', 1);
+date_default_timezone_set('asia/kolkata');
+// server
+/* $dbs="139.59.86.239:3306";
+$user="root";
+$pass="";
+$db="parganas_elect"; */
+// server
+// local
+$dbs="localhost";
+$user="root";
+$pass="";
+$db="s24pgs";
+// local
+//$link=@mysql_connect($dbs,$user,$pass) or die ("Error during connection");
+//mysql_select_db($db,$link);
+?>
